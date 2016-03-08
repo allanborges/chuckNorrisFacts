@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Teste</title>
+
+
+</head>
+<body>
+
+
+	<input type="text" name="valor" id="valor"  />
+	
+
+	<script>
+	//realizando a conversão
+		var value = 0,
+			c = document.getElementById("valor");
+
+		if ( value === 0 ){
+			console.log("é numero");
+		}
+
+		c.onkeypress = function(){
+			console.log("aaa");
+			var valorInterna = +this.value;
+			if ( valorInterna === 0 ) {
+				console.log("não é numero");
+			}
+
+		}
+		
+	</script>
+	
+</body>
+</html>

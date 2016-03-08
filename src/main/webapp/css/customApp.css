@@ -1,0 +1,81 @@
+	.container-fluid{
+		padding: 0 0;
+	}
+
+	.container{
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+
+	.table-striped>tbody>tr:nth-child(even)>td {
+		background: #CCC;
+	}
+
+	.searchFacts {				
+		width:300px !important;
+	}
+
+	.btnOkSearch,.btnOkSearch:hover{
+		font-weight: bold;
+		color: white;
+		background: rgba(247,100,22, 0.6);
+	}
+
+	.btnOkSearch:hover{
+		background: rgba(247,100,28, 0.7);
+	}
+
+	.inputSearchFact {
+		background: #E6DFDF;
+	}
+
+	.searchFacts:focus{
+		background: #E7E7E7 !important;
+	}
+
+	.form-control button{
+		margin-top: -10px !important;
+	}
+
+	.topo {
+		background: #333;
+		height: 39px;
+	}
+
+	.topo ul {
+		padding: 0px;
+		margin: 0px;
+		width: 50%;		
+		list-style: none;
+		float:left;
+	}
+
+	.topo ul li{
+		display:inline;		
+	}
+
+	.topo ul li a{
+		padding: 8px 10px;
+		display: inline-block;		
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+		width: 20%;
+	}
+
+	.topo ul li a:hover {
+		color: #6D6D6D;
+		border-bottom:3px solid rgba(247,100,22, 0.6);
+   }  
+
+	.loader {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background:rgba(249,249,249,0.7);
+ 	}
